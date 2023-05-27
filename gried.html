@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    background-color: rgb(19, 15, 15);
+    display: grid;
+    grid-auto-rows: 100px;
+  }
+  
+  .box{
+    height: 100px;
+    background-color: rgb(44, 44, 135);
+    font: 100 2rem cursive;
+    color: white;
+  }
+  #header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(22, 22, 134);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #header> a {
+    color:white;
+    text-decoration: none;
+  }
+
+</style>
+<body>
+    <div class="box" id="header">
+        <a href="">Home</a>
+        <a href="">product</a>
+        <a href="">service</a>
+        <a href="">theme</a>
+        <a href="">contact us</a>
+        <a href="">About us</a>
+    </div>
+
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+</body>
+</html>
